@@ -1,5 +1,7 @@
 package com.roncoo.eshop.product.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -69,4 +71,12 @@ public class BrandServiceImpl implements BrandService {
 		return brandMapper.findById(id);
 	}
 
+	public List<Brand> findByIds(String ids) {
+		return brandMapper.findByIds(ids);
+	}
+	
+	
+	
+	
+	
 }
