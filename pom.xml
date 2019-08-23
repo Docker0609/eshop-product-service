@@ -58,10 +58,24 @@
 			<artifactId>druid</artifactId>
 			<version>1.0.18</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.1.43</version>
+		</dependency>
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+		</dependency>
+
 	</dependencies>
-
-
-
 
 
 	<dependencyManagement>
@@ -95,19 +109,6 @@
 			</snapshots>
 		</repository>
 	</repositories>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </project>

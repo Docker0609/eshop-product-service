@@ -6,6 +6,18 @@ public class ProductIntro {
 	private String content;
 	private Long productId;
 	
+	
+	
+	
+	public ProductIntro() {
+		super();
+	}
+	public ProductIntro(Long id, String content, Long productId) {
+		super();
+		this.id = id;
+		this.content = content;
+		this.productId = productId;
+	}
 	public Long getId() {
 		return id;
 	}
@@ -24,5 +36,7 @@ public class ProductIntro {
 	public void setProductId(Long productId) {
 		this.productId = productId;
 	}
+	
+	
 	
 }

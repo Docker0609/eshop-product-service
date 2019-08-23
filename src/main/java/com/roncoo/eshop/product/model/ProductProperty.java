@@ -7,6 +7,19 @@ public class ProductProperty {
 	private String value;
 	private Long productId;
 	
+	
+	
+	
+	public ProductProperty() {
+		super();
+	}
+	public ProductProperty(Long id, String name, String value, Long productId) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.value = value;
+		this.productId = productId;
+	}
 	public Long getId() {
 		return id;
 	}
